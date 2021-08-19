@@ -1,23 +1,13 @@
-.h-header{
-    font-family: Arial, Helvetica, sans-serif;
-    color: darkviolet;
-
+*{
+    margin: 0;
+    padding: 0;
 }
-
-.c-corpo{
-    font-family: Arial, Helvetica, sans-serif;
-    color: darkviolet;
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.f-footer{
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.t-image_treino{
-    width: 100%;
-}
-
-.t-title{
-    color: rgb(78, 26, 99);
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
 }

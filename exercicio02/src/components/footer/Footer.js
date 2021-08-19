@@ -5,7 +5,7 @@ export default function Footer() {
 
    return( 
         <footer >
-            <p>Todos os direitos reservados 2021 &copy;</p>
+            <p>Todos os direitos reservados 2021 &copy; &#9757;</p>
         </footer>
 )
 }

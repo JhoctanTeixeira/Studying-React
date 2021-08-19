@@ -1,8 +1,16 @@
-*{
-    margin: 0;
-
+section{
+    background-color: darkgray;
 }
-.container{
-    margin-left: 20%;
-    margin-right: 20%;
+secton h2{
+    text-align: center;
+}
+section img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+section p:hover{
+    bachground-color: darkorange;
+
+
 }
