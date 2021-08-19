@@ -6,8 +6,7 @@ export default function Footer() {
       <>
       <div className="f-footer">
         <footer >
-            <p className="t-title">Autor: Jhoctan Teixeira</p>
-            <p><a href="mailto:rm88206@fiap.com.br">rm88206@fiap.com.br</a></p>
+            <p className="t-title">Todos os direitos reservados 2021 &copy;</p>
         </footer>
         </div>
       </>
