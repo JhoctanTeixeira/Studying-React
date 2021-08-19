@@ -1,5 +1,6 @@
 import React from 'react'
 import Treino from'../img/exerF.jpg'
+import './Corpo.css'
 
 export default function Corpo() {
 

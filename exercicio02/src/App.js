@@ -8,7 +8,8 @@ export default function App() {
 
    return(
       <>
-      <div>
+      <div className="container">
+        <h1>Resolution exercício</h1>
         <Header />
         <Corpo />
         <Footer />
