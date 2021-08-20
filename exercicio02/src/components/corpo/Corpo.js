@@ -1,13 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Treino from'../img/exerF.jpg'
 import './Corpo.css'
 import CompTeste from '../teste/CompTeste'
 import Operacoes from '../operacoes/Operacoes'
+import CaixaTest from '../caixateste/CaixaTest'
 
 export default function Corpo() {
 
+   const [corpoState, setCorpoState] = useState('Conteudo')
+
    return(
       <>
+      <p>E possui STATE</p>
+      <button onClick={()=> setCorpoState()}> Alterado no corpo</button>
+
       <section>
          <img src={Treino} alt="Exercicios se arrume e bora treinar em CASA!!!!" />
          <h2>Exercicios recomendados</h2>
@@ -15,6 +21,7 @@ export default function Corpo() {
             <div>
                <CompTeste/>
                <Operacoes/>
+               <CaixaTest />
             </div>
          <p>2 - Agachamento com deslocamento lateral Em pé, fique com as pernas unidas e coloque as mãos na cintura. Dê um passo para o lado. Estenda os braços à frente, contraia o abdome e agache até suas coxas ficarem paralelas ao chão. Volte para a posição inicial e execute o movimento para o outro lado....</p>
          <p>3 - Prancha com toque nas pernas Fique em posição de flexão de braços, com as mãos afastadas em uma largura igual a dos ombros e o abdome contraído, para estabilizar o corpo. Leve a mão esquerda até a lateral da coxa de mesmo lado. Volte e repita com a outra mão....</p>

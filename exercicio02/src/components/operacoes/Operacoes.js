@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './Operacoes.css'
+import Adicao from '../adicao/Adicao'
 
 export default function Operacoes() {
 
@@ -15,8 +16,11 @@ export default function Operacoes() {
       <>
 
         <p className="v-valor">valorState : {valorState}</p>
-        <p className="v-valor">valorSVariavel : {valorVariavel}</p>
+        <p className="v-valor">Valor da Variavel : {valorVariavel}</p>
+        {console.log("Valor da Variavel: " + valorVariavel )}
         <button onClick={()=> aumentar()}> Aumentar</button>
+
+        <Adicao resultado={valorState} operacao={aumentar}/>
 
       </>
 )

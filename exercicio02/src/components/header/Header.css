@@ -4,3 +4,8 @@ header{
     text-align: center;
     color: firebrick;
 }
+
+.v-valor3{
+    font-size: 1em;
+    background-color: rgb(175, 116, 180);
+}
