@@ -10,8 +10,8 @@ export default function Contato() {
     return (
         <div>
             <h2>Dados do Carro</h2>
-            Marca  :  <input name="marca" />  <br />
-            Modelo :  <input name="modelo" /> <br />
+            Marca  :  <input name="marca" type="text" />  <br />
+            Modelo :  <input name="modelo" type="text" /> <br />
         </div>
     )
 }
