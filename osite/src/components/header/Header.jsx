@@ -1,6 +1,9 @@
 import React from 'react'
 import { Switch, Route, Link } from 'react-router-dom'
-import Sobre from './sobre/Sobre'
+import Contato from '../contato/Contato'
+import Fotos from '../fotos/Fotos'
+import Servicos from '../servicos/Servicos'
+import Sobre from '../sobre/Sobre'
 export default function Header() {
 
     return (
