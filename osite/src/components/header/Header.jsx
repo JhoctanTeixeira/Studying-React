@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route, Link } from 'react-router-dom'
-
+import Sobre from './sobre/Sobre'
 export default function Header() {
 
     return (
@@ -10,19 +10,21 @@ export default function Header() {
                 <header>
                     <nav>
                         <ul>
-                            <li><Link>Inicio</Link></li>
-                            <li>Sobre</li>
-                            <li>Serviços</li>
-                            <li>Fotos</li>
-                            <li>Conatato</li>
+                            <li><Link to='/inicio'>Inicio</Link></li>
+                            <li><Link to='/sobre'>Sobre</Link></li>
+                            <li><Link to='/Servicos'>Serviços</Link></li>
+                            <li><Link to='/fotos'>Fotos</Link></li>
+                            <li><Link to='/contato'>Contato</Link></li>
                         </ul>
                     </nav>
                 </header>
                 <main>
                     <Switch>
-                        <Route path-'/sobre' component={sobre} />
+                        <Route path='/sobre' component={Sobre} />
+                        <Route path='/servicos' component={Servicos} />
+                        <Route path='/fotos' component={Fotos} />
+                        <Route path='/contato' component={Contato} />
                     </Switch>
-
                 </main>
             </div>
         </>
