@@ -1,13 +1,19 @@
 import React from 'react'
 import Header from './components/header/Header'
-
+import {ElHtml, BodyAll, TitulosFont} from './styled'
 export default function App() {
 
     return (
         <>
             <div className="container">
-                <h1>App.jsx</h1>
-                <Header />
+                <ElHtml>
+                    <BodyAll>
+                        <TitulosFont>
+                            <h1>ROTAS</h1>
+                            <Header />
+                        </TitulosFont>
+                    </BodyAll>
+                </ElHtml>
             </div>
             
         </>
