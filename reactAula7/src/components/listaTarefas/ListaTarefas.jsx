@@ -26,12 +26,24 @@ const ListaTarefas = () =>{
                 titulo:'Estoque no final',
                 setor:'ESTOQUE',
                 descricao:'Por gentileza reforçar o estoqeu para o NATAl'
-            }
+            },
+            
         ])
+
+        const addTarefa = () => {
+            const novaTarefa = {
+                titulo:'CONTRATAÇÂO',
+                setor:'PESSOAL',
+                descricao:'Providenciar tratamento'
+            }
+
+            setTarefa(...tarefa, novaTarefa)
+
+        }
 
     return (
         <DivLista>
-            { tarefa.map( 
+            {tarefa.map( 
                 (tar,i)=>(
                     <Tarefas key={i}
                              titulo={tar.titulo}
@@ -39,6 +51,7 @@ const ListaTarefas = () =>{
                              descricao={tar.descricao}
                     />
                 ))}
+            <button onClick={addTarefa}>ADICIONAR POST-IT</button>
         </DivLista>
     )
 }
