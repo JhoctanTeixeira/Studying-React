@@ -1,10 +1,10 @@
 import React from 'react'
-
+import ListaTarefas from './components/listaTarefas/ListaTarefas'
 const App = () =>{
     return(
         <>
         <div id="container">
-            <h1>App.js</h1>
+            <ListaTarefas/>
         </div>
 
         </>
