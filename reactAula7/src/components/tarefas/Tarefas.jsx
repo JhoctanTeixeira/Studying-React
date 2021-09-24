@@ -1,5 +1,4 @@
 import React from 'react'
-import {RiTaskLine as RtTask} from 'react-icons/ri'
 import styled from 'styled-components'
 
 export const DivTarefa = styled.div`
@@ -19,7 +18,6 @@ const Tarefas = (props) =>{
     return (
         <DivTarefa>
             <p>Nr da tarefa: {props.key}</p>
-            {/* <span><RtTask /></span> */}
             <h2>{props.titulo}</h2>
             <p>Para: {props.setor}</p>
             <p>{props.descricao}</p>

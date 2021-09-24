@@ -37,9 +37,11 @@ const ListaTarefas = () =>{
                 descricao:'Providenciar tratamento'
             }
 
-            setTarefa(...tarefa, novaTarefa)
+            setTarefa([...tarefa, novaTarefa])
 
         }
+
+        
 
     return (
         <DivLista>
